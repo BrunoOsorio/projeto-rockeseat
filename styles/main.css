@@ -1,12 +1,15 @@
 
 :root {
-    --title-color: #332152;
-    --primarycolor: #34cb79;
+    --title-color: hsl(262, 43%, 23%);
+    --primary-color: #34cb79;
 }
 
 * {
     padding: 0;
     margin: 0;
+
+    /*Limita o crescimento da caixa*/
+    box-sizing: border-box;
 }
 
 html {
