@@ -24,7 +24,7 @@ function getCities(event){
     const ufValue = event.target.value
 
     const indexOfSelectState = event.target.selectedIndex    
-    stateInput.value = event.target.options[indexOfSelectState].text
+    stateInput.value = event.target.options[indexOfSelectState].text 
 
     const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
